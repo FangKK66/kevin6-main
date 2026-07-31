@@ -30,7 +30,7 @@ test("server-renders the Kevin6 landing page", async () => {
   const html = await response.text();
   assert.match(html, /Kevin6 — Useful things, made simple\./);
   assert.match(html, /Open the Toolbox/);
-  assert.match(html, /https:\/\/toolbox\.kevin6\.com/);
+  assert.match(html, /href="\/toolbox"/);
   assert.match(html, /An independent digital workshop/);
   assert.doesNotMatch(html, /codex-preview|react-loading-skeleton/);
 });

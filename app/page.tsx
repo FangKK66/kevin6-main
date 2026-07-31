@@ -7,11 +7,7 @@ export default function Home() {
           <span className="brand-name">kevin6.com</span>
         </a>
 
-        <a
-          className="nav-link"
-          href="https://toolbox.kevin6.com"
-          aria-label="Open Kevin's Toolbox"
-        >
+        <a className="nav-link" href="/toolbox" aria-label="Open Kevin's Toolbox">
           Toolbox <span aria-hidden="true">↗</span>
         </a>
       </nav>
@@ -34,7 +30,7 @@ export default function Home() {
             Nothing extra—just what helps.
           </p>
 
-          <a className="primary-action" href="https://toolbox.kevin6.com">
+          <a className="primary-action" href="/toolbox">
             <span>Open the Toolbox</span>
             <span className="action-arrow" aria-hidden="true">
               ↗
@@ -51,7 +47,7 @@ export default function Home() {
                 <span />
                 <span />
               </div>
-              <span className="window-address">toolbox.kevin6.com</span>
+              <span className="window-address">kevin6.com/toolbox</span>
               <span className="window-plus">+</span>
             </div>
 
